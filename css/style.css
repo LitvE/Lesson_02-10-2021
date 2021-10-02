@@ -81,7 +81,7 @@ body {
     font-family: 'Birthstone', cursive;
     display: flex;
   }*/
-
+/*
 .body{
     box-sizing: border-box;
 }
@@ -120,4 +120,19 @@ p{
     left: 20px;
     bottom: 20px;
     color: white;
+}
+*/
+
+.myVideo{
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    height: 360px;
+}
+
+.myVideo iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
