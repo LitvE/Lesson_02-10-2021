@@ -25,7 +25,7 @@ function addContentItem() {
   tElem.classList.add('time');
   const time = new Date();
   tElem.textContent =
-    time.getFullYear() + '.' + (time.getMonth()+1) + '.' + time.getDate();
+    time.time.getDate()+ '.' + (time.getMonth()+1) + '.' + time.getFullYear();
   let checkBox = document.createElement('input');
   checkBox.type = 'checkbox';
   checkBox.className = 'checkBox';
