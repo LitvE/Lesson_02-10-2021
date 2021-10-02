@@ -1,3 +1,4 @@
+/*
 const input = document.querySelector('.input-form');
 const add = document.querySelector('.addButton');
 const del = document.querySelector('.delButton');
@@ -49,4 +50,20 @@ function delTask() {
       item.parentNode.parentNode.remove();
     }
   }
+}*/
+
+const slides = document.querySelectorAll('.slide');
+
+for(let slide of slides){
+    slide.addEventListener('click', ()=>{
+        clearStyleActive();
+        slide.classList.add('active');
+    })
 }
+
+function clearStyleActive(){
+    slides.forEach(slide => {
+        slide.classList.remove('active');
+    })
+}
+
